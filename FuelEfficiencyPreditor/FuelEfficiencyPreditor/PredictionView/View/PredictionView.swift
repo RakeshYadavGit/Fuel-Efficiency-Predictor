@@ -15,6 +15,7 @@ struct PredictionView: View {
     @State private var cylinderCapacity: String = ""
     @State private var displacement: String = ""
     @State private var horsepower: String = ""
+    @State private var weight: String = ""
     @State private var acceleration: String = ""
     @State private var selectedOrigin: String = ""
 
@@ -39,20 +40,24 @@ struct PredictionView: View {
                 .background(Color(hex: "#7D1E44"))
 
             VStack(spacing: 16) {
-                TextField(AppConstants.TextHints.enterVehicleYear.rawValue, text: $vehicleYear)
-                    .textFieldStyle()
-
                 TextField(AppConstants.TextHints.cylinderCapacity.rawValue, text: $cylinderCapacity)
                     .textFieldStyle()
-
+                
                 TextField(AppConstants.TextHints.displacement.rawValue, text: $displacement)
                     .textFieldStyle()
 
                 TextField(AppConstants.TextHints.horsepower.rawValue, text: $horsepower)
                     .textFieldStyle()
+                
+                TextField(AppConstants.TextHints.weight.rawValue, text: $weight)
+                    .textFieldStyle()
 
                 TextField(AppConstants.TextHints.acceleration.rawValue, text: $acceleration)
                     .textFieldStyle()
+                
+                TextField(AppConstants.TextHints.enterVehicleYear.rawValue, text: $vehicleYear)
+                    .textFieldStyle()
+
                 
                 Picker(AppConstants.originPickerTitle, selection: $selectedOrigin) {
                     ForEach(AppConstants.VehicleOrigin.allCases) { origin in
@@ -67,7 +72,7 @@ struct PredictionView: View {
             .padding(.top, 40)
 
             Button {
-                // Action here
+                self.getPrediction()
             } label: {
                 Text(AppConstants.buttonText)
                     .padding()
@@ -83,6 +88,15 @@ struct PredictionView: View {
             Spacer()
         }
         .background(Color(hex: "#CF2F61"))
+        .onAppear {
+            self.predictionViewModel.initializeInterpreter()
+        }
+    }
+    
+    private func getPrediction() {
+        let userInputs = [self.cylinderCapacity, self.displacement, self.horsepower, self.weight, self.acceleration, self.vehicleYear, self.selectedOrigin]
+        
+        self.predictionViewModel.predict(userInputs: userInputs)
     }
 }
 

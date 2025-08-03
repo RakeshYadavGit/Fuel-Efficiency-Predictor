@@ -11,7 +11,7 @@ extension View {
     func textFieldStyle() -> some View {
         self
             .padding(20)
-            .foregroundStyle(.white)
+            .foregroundStyle(.black)
             .background(
                 RoundedRectangle(cornerRadius: 20)
                     .fill(Color(hex: "#FEF2F4").opacity(0.8))

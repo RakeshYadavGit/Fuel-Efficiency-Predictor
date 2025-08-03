@@ -19,6 +19,7 @@ enum AppConstants {
         case cylinderCapacity = "Enter the cylinder capacity of your vehicle"
         case displacement = "Enter the displacement of your vehicle"
         case horsepower = "Enter the horsepower of your vehicle"
+        case weight = "Enter the weight of your vehicle"
         case acceleration = "Enter the acceleration of your vehicle"
         case origin = "Select the origin of your vehicle"
     }

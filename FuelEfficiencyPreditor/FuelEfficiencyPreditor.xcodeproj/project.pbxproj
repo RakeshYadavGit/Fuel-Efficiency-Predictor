@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		003152D070E2290A9A61BA9E /* Pods_FuelEfficiencyPreditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8371234152B13F479C384A03 /* Pods_FuelEfficiencyPreditorTests.framework */; };
+		56E867D557708C8E0147890E /* Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81FADAABEF9AE05374DBC73 /* Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework */; };
+		5F82F2C9610C2B541831CE14 /* Pods_FuelEfficiencyPreditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01B2437A2B7E8E44A6B7B60 /* Pods_FuelEfficiencyPreditor.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F9F08DAD2E3E47C2002DCC6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,13 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8371234152B13F479C384A03 /* Pods_FuelEfficiencyPreditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelEfficiencyPreditorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AB6779BF1C248A7142FAE6 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.debug.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91622AC5A0ADA3AB7DACC191 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.release.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95D383A202CB332A8FCA5470 /* Pods-FuelEfficiencyPreditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditor.debug.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditor/Pods-FuelEfficiencyPreditor.debug.xcconfig"; sourceTree = "<group>"; };
+		9768FCCD4A2EA5654915106B /* Pods-FuelEfficiencyPreditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditor.release.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditor/Pods-FuelEfficiencyPreditor.release.xcconfig"; sourceTree = "<group>"; };
+		A01B2437A2B7E8E44A6B7B60 /* Pods_FuelEfficiencyPreditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelEfficiencyPreditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81FADAABEF9AE05374DBC73 /* Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FC8B1937A5D125196DD9D0 /* Pods-FuelEfficiencyPreditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditorTests.release.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditorTests/Pods-FuelEfficiencyPreditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB8C234899264691DD43EEA3 /* Pods-FuelEfficiencyPreditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelEfficiencyPreditorTests.debug.xcconfig"; path = "Target Support Files/Pods-FuelEfficiencyPreditorTests/Pods-FuelEfficiencyPreditorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9F08D9E2E3E47BF002DCC6B /* FuelEfficiencyPreditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelEfficiencyPreditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F08DAC2E3E47C2002DCC6B /* FuelEfficiencyPreditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelEfficiencyPreditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F08DB62E3E47C2002DCC6B /* FuelEfficiencyPreditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelEfficiencyPreditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F9F08DA02E3E47BF002DCC6B /* FuelEfficiencyPreditor */ = {
+		F991F7E12E3F7C9200027C4D /* FuelEfficiencyPreditor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FuelEfficiencyPreditor;
 			sourceTree = "<group>";
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F82F2C9610C2B541831CE14 /* Pods_FuelEfficiencyPreditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003152D070E2290A9A61BA9E /* Pods_FuelEfficiencyPreditorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +83,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E867D557708C8E0147890E /* Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162F421C2D7D159AFC848591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01B2437A2B7E8E44A6B7B60 /* Pods_FuelEfficiencyPreditor.framework */,
+				B81FADAABEF9AE05374DBC73 /* Pods_FuelEfficiencyPreditor_FuelEfficiencyPreditorUITests.framework */,
+				8371234152B13F479C384A03 /* Pods_FuelEfficiencyPreditorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD1D55A35E1120E5D958431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D383A202CB332A8FCA5470 /* Pods-FuelEfficiencyPreditor.debug.xcconfig */,
+				9768FCCD4A2EA5654915106B /* Pods-FuelEfficiencyPreditor.release.xcconfig */,
+				83AB6779BF1C248A7142FAE6 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.debug.xcconfig */,
+				91622AC5A0ADA3AB7DACC191 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.release.xcconfig */,
+				EB8C234899264691DD43EEA3 /* Pods-FuelEfficiencyPreditorTests.debug.xcconfig */,
+				E2FC8B1937A5D125196DD9D0 /* Pods-FuelEfficiencyPreditorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9F08D952E3E47BF002DCC6B = {
 			isa = PBXGroup;
 			children = (
-				F9F08DA02E3E47BF002DCC6B /* FuelEfficiencyPreditor */,
+				F991F7E12E3F7C9200027C4D /* FuelEfficiencyPreditor */,
 				F9F08DAF2E3E47C2002DCC6B /* FuelEfficiencyPreditorTests */,
 				F9F08DB92E3E47C2002DCC6B /* FuelEfficiencyPreditorUITests */,
 				F9F08D9F2E3E47BF002DCC6B /* Products */,
+				BBD1D55A35E1120E5D958431 /* Pods */,
+				162F421C2D7D159AFC848591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,20 +142,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F08DC02E3E47C2002DCC6B /* Build configuration list for PBXNativeTarget "FuelEfficiencyPreditor" */;
 			buildPhases = (
+				93EE56C1322C3B469F17CFCC /* [CP] Check Pods Manifest.lock */,
 				F9F08D9A2E3E47BF002DCC6B /* Sources */,
 				F9F08D9B2E3E47BF002DCC6B /* Frameworks */,
 				F9F08D9C2E3E47BF002DCC6B /* Resources */,
+				236E57D0CEE31B1A8E60D8F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F9F08DA02E3E47BF002DCC6B /* FuelEfficiencyPreditor */,
+				F991F7E12E3F7C9200027C4D /* FuelEfficiencyPreditor */,
 			);
 			name = FuelEfficiencyPreditor;
-			packageProductDependencies = (
-			);
 			productName = FuelEfficiencyPreditor;
 			productReference = F9F08D9E2E3E47BF002DCC6B /* FuelEfficiencyPreditor.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F08DC32E3E47C2002DCC6B /* Build configuration list for PBXNativeTarget "FuelEfficiencyPreditorTests" */;
 			buildPhases = (
+				AC62E6453F1595E26FD35A9F /* [CP] Check Pods Manifest.lock */,
 				F9F08DA82E3E47C2002DCC6B /* Sources */,
 				F9F08DA92E3E47C2002DCC6B /* Frameworks */,
 				F9F08DAA2E3E47C2002DCC6B /* Resources */,
@@ -134,8 +178,6 @@
 				F9F08DAF2E3E47C2002DCC6B /* FuelEfficiencyPreditorTests */,
 			);
 			name = FuelEfficiencyPreditorTests;
-			packageProductDependencies = (
-			);
 			productName = FuelEfficiencyPreditorTests;
 			productReference = F9F08DAC2E3E47C2002DCC6B /* FuelEfficiencyPreditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F08DC62E3E47C2002DCC6B /* Build configuration list for PBXNativeTarget "FuelEfficiencyPreditorUITests" */;
 			buildPhases = (
+				0C7B000332D5D3624D9D3957 /* [CP] Check Pods Manifest.lock */,
 				F9F08DB22E3E47C2002DCC6B /* Sources */,
 				F9F08DB32E3E47C2002DCC6B /* Frameworks */,
 				F9F08DB42E3E47C2002DCC6B /* Resources */,
+				571264B2B70514E18BD504EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				F9F08DB92E3E47C2002DCC6B /* FuelEfficiencyPreditorUITests */,
 			);
 			name = FuelEfficiencyPreditorUITests;
-			packageProductDependencies = (
-			);
 			productName = FuelEfficiencyPreditorUITests;
 			productReference = F9F08DB62E3E47C2002DCC6B /* FuelEfficiencyPreditorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +272,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7B000332D5D3624D9D3957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		236E57D0CEE31B1A8E60D8F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor/Pods-FuelEfficiencyPreditor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor/Pods-FuelEfficiencyPreditor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor/Pods-FuelEfficiencyPreditor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571264B2B70514E18BD504EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests/Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EE56C1322C3B469F17CFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelEfficiencyPreditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC62E6453F1595E26FD35A9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelEfficiencyPreditorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9F08D9A2E3E47BF002DCC6B /* Sources */ = {
@@ -387,6 +540,7 @@
 		};
 		F9F08DC12E3E47C2002DCC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D383A202CB332A8FCA5470 /* Pods-FuelEfficiencyPreditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,6 +550,7 @@
 				DEVELOPMENT_TEAM = BH7FURX85H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -426,6 +581,7 @@
 		};
 		F9F08DC22E3E47C2002DCC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9768FCCD4A2EA5654915106B /* Pods-FuelEfficiencyPreditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +591,7 @@
 				DEVELOPMENT_TEAM = BH7FURX85H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -465,6 +622,7 @@
 		};
 		F9F08DC42E3E47C2002DCC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8C234899264691DD43EEA3 /* Pods-FuelEfficiencyPreditorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +646,7 @@
 		};
 		F9F08DC52E3E47C2002DCC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FC8B1937A5D125196DD9D0 /* Pods-FuelEfficiencyPreditorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +670,7 @@
 		};
 		F9F08DC72E3E47C2002DCC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AB6779BF1C248A7142FAE6 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +693,7 @@
 		};
 		F9F08DC82E3E47C2002DCC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91622AC5A0ADA3AB7DACC191 /* Pods-FuelEfficiencyPreditor-FuelEfficiencyPreditorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
