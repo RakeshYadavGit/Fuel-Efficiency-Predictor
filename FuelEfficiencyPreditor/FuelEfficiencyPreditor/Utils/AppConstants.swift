@@ -11,6 +11,7 @@ enum AppConstants {
     static let predictionErrorText: String = "Something went wrong. Please try again later."
     static let predictionLoadingText: String = "Predicting..."
     static let buttonText: String = "Predict"
+    static let originPickerTitle: String = "Origin"
 
     enum TextHints: String, CaseIterable, Identifiable {
         var id: String { self.rawValue }
@@ -22,7 +23,8 @@ enum AppConstants {
         case origin = "Select the origin of your vehicle"
     }
     
-    enum VehicleOrigin: String, CaseIterable {
+    enum VehicleOrigin: String, CaseIterable, Identifiable {
+        var id: String { self.rawValue }
         case usa = "USA"
         case europe = "Europe"
         case japan = "Japan"

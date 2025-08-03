@@ -16,6 +16,8 @@ struct PredictionView: View {
     @State private var displacement: String = ""
     @State private var horsepower: String = ""
     @State private var acceleration: String = ""
+    @State private var selectedOrigin: String = ""
+
 
     var body: some View {
         VStack {
@@ -51,6 +53,16 @@ struct PredictionView: View {
 
                 TextField(AppConstants.TextHints.acceleration.rawValue, text: $acceleration)
                     .textFieldStyle()
+                
+                Picker(AppConstants.originPickerTitle, selection: $selectedOrigin) {
+                    ForEach(AppConstants.VehicleOrigin.allCases) { origin in
+                        Text(origin.rawValue).tag(origin)
+                    }
+                }
+                .pickerStyle(.segmented)
+                .padding()
+
+
             }
             .padding(.top, 40)
 
